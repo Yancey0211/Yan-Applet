@@ -1,0 +1,60 @@
+{ 
+  "pages": [
+    "pages/home/index",
+    "pages/user/index",
+    "pages/inquiry/index",
+    "pages/classify/index",
+    "pages/purchase/index",
+    "components/nav"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "Yan-Applet将获取您的位置以便提供更高的服务,是否允许？"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Yan-Applet",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "color": "#929294",
+    "selectedColor": "#162240",
+    "list": [
+      {
+        "selectedIconPath": "images/tabBar/home_on.png",
+        "iconPath": "images/tabBar/home_no.png",
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tabBar/classify_on.png",
+        "iconPath": "images/tabBar/classify_no.png",
+        "pagePath": "pages/classify/index",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/tabBar/inquiry_on.png",
+        "iconPath": "images/tabBar/inquiry_no.png",
+        "pagePath": "pages/inquiry/index",
+        "text": "询单"
+      },
+      {
+        "selectedIconPath": "images/tabBar/purchase_on.png",
+        "iconPath": "images/tabBar/purchase_no.png",
+        "pagePath": "pages/purchase/index",
+        "text": "采购单"
+      },
+      {
+        "selectedIconPath": "images/tabBar/my_on.png",
+        "iconPath": "images/tabBar/my_no.png",
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

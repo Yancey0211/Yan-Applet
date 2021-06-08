@@ -1,0 +1,6 @@
+<!--pages/inquiry/index.wxml-->
+<view class="inquiry">
+  询问
+  <!-- 底部导航栏 -->
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

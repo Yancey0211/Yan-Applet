@@ -1,0 +1,14 @@
+// substring截取src后缀名
+var sub = function(val) {
+  val = val.substring(val.lastIndexOf('.')+1) 
+  // console.log(val)
+  return val;
+};
+
+
+// 此处2为保留两位小数，保留几位小数，这里写几    
+var toFix= function (value) {
+  return value.toFixed(2) 
+};
+module.exports.sub = sub;
+module.exports.toFix = toFix;

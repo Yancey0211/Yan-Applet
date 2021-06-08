@@ -1,0 +1,5 @@
+<view class="home">
+  首页
+  <!-- 底部导航栏 -->
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

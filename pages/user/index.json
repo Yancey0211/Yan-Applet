@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tabbar": "/components/nav"
+  },
+  "navigationBarTitleText": "Yan-applet",
+  "backgroundTextStyle":"dark",
+  "enablePullDownRefresh":true,
+  "navigationBarBackgroundColor": "#fbbd08",
+  "navigationBarTextStyle":"white"
+}

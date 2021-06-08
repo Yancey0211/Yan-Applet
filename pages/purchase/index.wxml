@@ -1,0 +1,6 @@
+<!--pages/purchase/index.wxml-->
+<view class="purchase">
+  采购
+  <!-- 底部导航栏 -->
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

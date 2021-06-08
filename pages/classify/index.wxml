@@ -1,0 +1,5 @@
+<view class="classify">
+  分类
+  <!-- 底部导航栏 -->
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

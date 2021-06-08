@@ -1,0 +1,6 @@
+<!-- pages/user/index.wxml -->
+<view class="user">
+  我的
+  <!-- 底部导航栏 -->
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

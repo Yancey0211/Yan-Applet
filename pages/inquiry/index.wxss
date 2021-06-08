@@ -1,0 +1,368 @@
+page {
+  background-color: #f2f2f2;
+}
+.inquiry {
+  padding-bottom: 110rpx;
+  width: 100%;
+}
+.inquiry .need {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inquiry .need .banner {
+  width: 100%;
+  height: 200rpx;
+}
+.inquiry .need .banner image {
+  width: 100%;
+  height: 200rpx;
+}
+.inquiry .need .needInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.inquiry .need .needInfo .info {
+  width: 94%;
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.inquiry .need .needInfo .info .left {
+  width: 200rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .needInfo .info .left text {
+  width: 15rpx;
+  height: 14rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff7e17;
+  line-height: 38rpx;
+}
+.inquiry .need .needInfo .info .right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .needInfo .info .right input {
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .needInfo .info .right .select {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #3e4455;
+  line-height: 38rpx;
+}
+.inquiry .need .needInfo .info .right .select image {
+  width: 11rpx;
+  height: 20rpx;
+}
+.inquiry .need .needInfo .info .right picker {
+  width: 100%;
+}
+.inquiry .need .needInfo .info .right .picker {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #333333;
+}
+.inquiry .need .needInfo .info .right .picker .goSelect {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  font-size: 24rpx;
+  color: #333333;
+}
+.inquiry .need .needInfo .info .right .picker .goSelect image {
+  width: 11rpx;
+  height: 20rpx;
+}
+.inquiry .need .needInfo .info2 {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 334rpx;
+}
+.inquiry .need .needInfo .info2 .left {
+  width: 200rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .needInfo .info2 .left text {
+  width: 15rpx;
+  height: 14rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff7e17;
+  line-height: 38rpx;
+}
+.inquiry .need .needInfo .info2 .bottom textarea {
+  margin-top: 20rpx;
+  height: 245rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 44rpx;
+}
+.inquiry .need .uploadView {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 20rpx solid #f2f2f2;
+  padding-bottom: 18rpx;
+}
+.inquiry .need .uploadView .upload {
+  width: 94%;
+}
+.inquiry .need .uploadView .upload .title {
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .uploadView .upload .title text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .uploadView .upload .title .num {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 38rpx;
+}
+.inquiry .need .uploadView .upload .title view {
+  margin-top: -30rpx;
+  width: 15rpx;
+  height: 14rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff7e17;
+  line-height: 38rpx;
+}
+.inquiry .need .uploadView .upload .title2 {
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .uploadView .upload .title2 text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 550;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .uploadView .upload .title2 .num {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 38rpx;
+}
+.inquiry .need .uploadView .upload .title2 view {
+  margin-top: -30rpx;
+  width: 15rpx;
+  height: 14rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff7e17;
+  line-height: 38rpx;
+}
+.inquiry .need .uploadView .upload .uploadBtn {
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .uploadView .upload .uploadBtn .van-uploader__preview {
+  margin-top: 20rpx;
+}
+.inquiry .need .uploadView .upload .uploadBtn .van-uploader__preview image {
+  margin-right: 10rpx;
+}
+.inquiry .need .uploadView .upload .uploadBtn .van-uploader__upload {
+  margin-top: 20rpx;
+}
+.inquiry .need .uploadView .upload .info {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 38rpx;
+}
+.inquiry .need .myInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.inquiry .need .myInfo .info {
+  width: 94%;
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.inquiry .need .myInfo .info .left {
+  width: 200rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .myInfo .info .left text {
+  width: 15rpx;
+  height: 14rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff7e17;
+  line-height: 38rpx;
+}
+.inquiry .need .myInfo .info .right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .myInfo .info .right input {
+  width: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .myInfo .info .right picker {
+  width: 100%;
+}
+.inquiry .need .myInfo .info .right picker .picker {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .addInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.inquiry .need .addInfo .title {
+  width: 94%;
+  height: 66rpx;
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .addInfo .title text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .addInfo .title van-switch {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.inquiry .need .addInfo .allInfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inquiry .need .addInfo .allInfo .info {
+  width: 94%;
+  display: flex;
+  align-items: center;
+  height: 98rpx;
+}
+.inquiry .need .addInfo .allInfo .info .left {
+  width: 200rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .addInfo .allInfo .info .right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.inquiry .need .addInfo .allInfo .info .right input {
+  width: 555rpx;
+  height: 78rpx;
+  border: 2rpx solid #f2f2f2;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 38rpx;
+}
+.inquiry .need .submit {
+  margin-top: 56rpx;
+  margin-bottom: 56rpx;
+  width: 94%;
+  height: 88rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff7214;
+  box-shadow: 0rpx 13rpx 14rpx 2rpx rgba(207, 110, 45, 0.16);
+  border-radius: 10rpx;
+}
+.inquiry .need .submit .btn {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 38rpx;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
